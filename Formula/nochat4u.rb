@@ -1,4 +1,4 @@
-cask Nochat4u < Formula
+cask "nochat4u" < do
   desc "NoChat4U Application"
   homepage "https://github.com/miguel-mpm/NoChat4U"
   url "https://github.com/miguel-mpm/NoChat4U/releases/download/v1.0.0/NoChat4U.zip"
