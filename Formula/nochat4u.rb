@@ -1,12 +1,11 @@
 class Nochat4u < Formula
   desc "NoChat4U Application"
   homepage "https://github.com/miguel-mpm/NoChat4U"
-  url "https://github.com/miguel-mpm/NoChat4U/releases/download/v1.0.0/NoChat4U.dmg"
+  url "https://github.com/miguel-mpm/NoChat4U/releases/download/v1.0.0/NoChat4U.zip"
   sha256 ""
   version "1.0.0"
 
-  def install
-    prefix.install "NoChat4U.app"
-    bin.write_exec_script prefix/"NoChat4U.app/Contents/MacOS/NoChat4U"
-  end
+  app "NoChat4U.app"
+
+  uninstall quit: "com.someone.NoChat4U"
 end
