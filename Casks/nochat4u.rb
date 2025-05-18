@@ -2,7 +2,7 @@ cask "nochat4u" do
   desc "NoChat4U Application"
   homepage "https://github.com/miguel-mpm/NoChat4U"
   url "https://github.com/miguel-mpm/NoChat4U/releases/download/v1.0.0/NoChat4U-v1.0.0.zip"
-  sha256 "805f200eb7d58401b1a4864be9c0ef9ab44371155d999d46f76e9d5fd408b128"
+  sha256 "22b1be2e415680b40f090d34680c65829c5b94e5a5b50c28036fa7d1d8e1b890"
   version "1.0.0"
 
   app "NoChat4U.app"
